@@ -4,6 +4,10 @@ Firmware del prototipo de **conteo de pasajeros en tiempo real** desarrollado pa
 [TAXIBOCARCHI](https://github.com/AdrianC1530/TAXIBOCARCHI). La placa **ESP32-CAM** captura imágenes
 y las envía por WiFi al servidor de detección.
 
+> **Esta es la versión anterior del prototipo.** Aquí la ESP32-CAM enviaba imágenes al servidor.
+> La versión final de la tesis usa un XIAO ESP32-S3 con un modelo TinyML que corre en la propia placa
+> y solo envía el número de personas, nunca una imagen. Está en [TAXIBOCARCHI](https://github.com/AdrianC1530/TAXIBOCARCHI).
+
 ## Evolución
 
 | Carpeta | Qué es |
